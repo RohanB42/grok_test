@@ -1,1 +1,1 @@
-{"name":"isotope-grok-demo","private":true,"dependencies":{"openai":"^4.0.0"}}
+{"name":"isotope-grok-demo","private":true,"dependencies":{"openai":"^7.17.0"}}
