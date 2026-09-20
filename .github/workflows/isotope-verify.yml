@@ -6,7 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: hmartel222/hophacksf26@main
+        with:
+          fetch-depth: 0
+      - name: Run customer contract tests
+        run: npm test
+      - uses: hmartel222/hophacksf26/action@openai-provider-harness
         with:
           mode: verify
           reasoner: on
