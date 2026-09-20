@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: hmartel222/hophacksf26@main
+      - uses: hmartel222/hophacksf26@openai-provider-harness
         with:
           mode: verify
           reasoner: on
