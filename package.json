@@ -1,1 +1,1 @@
-{"name":"isotope-grok-demo","private":true,"dependencies":{"openai":"^5.0.0"}}
+{"name":"isotope-grok-demo","private":true,"dependencies":{"openai":"^5.0.0"},"scripts":{"test":"node --test tests/*.test.cjs"}}
